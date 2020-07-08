@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"ts_golang/invoke"
+)
 
 func main() {
-	fmt.Println("Main Begin")
+	msg := invoke.Hello("Golang", "")
+	fmt.Println(msg)
+
 }
