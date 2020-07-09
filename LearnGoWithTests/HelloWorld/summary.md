@@ -1,18 +1,18 @@
-### File01:
+### HelloWorld:
 
 +  Let's go over the cycle again
-    -  Write a test
-    -  Make the compiler pass
-    -  Run the test, see that it fails and check the error message is meaningful
-    -  Write enough code to make the test pass
+    -  |_ Write a test
+    -  |_ Make the compiler pass
+    -  |_ Run the test, see that it fails and check the error message is meaningful
+    -  |_ Write enough code to make the test pass
     
 ---
     
 + Some of Go's syntax around
-  - Writing tests
-  - Declaring functions, with arguments and return types
-  - if, const and switch
-  - Declaring variables and constants
+  - |_ Writing tests
+  - |_ Declaring functions, with arguments and return types
+  - |_ if, const and switch
+  - |_ Declaring variables and constants
 
 
 ---

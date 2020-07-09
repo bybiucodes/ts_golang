@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"ts_golang/invoke"
+	"ts_golang/LearnGoWithTests/HelloWorld"
 )
 
 func main() {
-	msg := invoke.Hello("Golang", "")
+	msg := HelloWorld.Hello("Golang", "")
 	fmt.Println(msg)
 
 }

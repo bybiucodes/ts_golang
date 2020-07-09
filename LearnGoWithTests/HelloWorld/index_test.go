@@ -1,8 +1,7 @@
-package test
+package HelloWorld
 
 import (
 	"testing"
-	"ts_golang/invoke"
 )
 
 /*
@@ -41,13 +40,13 @@ func TestHello(t *testing.T) {
 	 * 你的测试清楚地说明代码需要做什么是很重要的。
 	 */
 	t.Run("saying hello to peaple", func(t *testing.T) {
-		got := invoke.Hello("World","")
+		got := Hello("World","")
 		want := "Hello, World"
 		assertCorrectMessage(t, got, want)
 	})
 
 	t.Run("say 'Hello, world' when an empty string is supplied", func(t *testing.T) {
-		got := invoke.Hello("", "")
+		got := Hello("", "")
 		want := "Hello, World"
 
 		assertCorrectMessage(t, got, want)
@@ -55,7 +54,7 @@ func TestHello(t *testing.T) {
 
 	// When our function is called with an empty string it defaults to printing "Hello, World", rather than "Hello, ".
 	t.Run("in Spanish", func(t *testing.T) {
-		got := invoke.Hello("franch", "Franch")
+		got := Hello("franch", "Franch")
 		want := "Bonjour, franch"
 		assertCorrectMessage(t, got, want)
 	})
